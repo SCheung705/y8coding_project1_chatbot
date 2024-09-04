@@ -15,5 +15,9 @@ if siblings == 0:
     print("You're an only child")
 elif siblings > 5:
     print("That's alot of siblings")
-elif siblings < 0:
-    print()
+elif siblings == 1:
+    print("Is your sibling a good friend?")
+elif siblings == 2:
+    print("Is it brothers and sisters?")
+elif siblings > 20:
+    print("That's kind of weird...")

@@ -1,0 +1,12 @@
+name = input("Hello, what's your name?")
+print("Hello {}".format(name))
+age = input("What is your age?")
+print("{} is a good age".format(age))
+lesson = input("What is your favourite lesson?")
+print("{} is a fun lesson!".format(lesson))
+print("{} has {} letters".format(lesson, len(lesson)))
+teacher = input("Who is your favourite teacher?")
+print("{} makes me think too hard".format(teacher))
+
+country = input("What is your country?")
+print("{} begins with {}".format(country, ))
